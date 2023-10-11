@@ -35,7 +35,7 @@ body{
   background-attachment: fixed;
   
 }
-.fname,.contact-me{
+.fname{
   -webkit-text-stroke: 1px white;
   color: transparent;
   

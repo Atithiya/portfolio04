@@ -2,12 +2,27 @@ import React from "react";
 import background from "../assets/bg.png";
 import { BsGithub } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
+import { FaLocationDot } from "react-icons/fa6";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Contact() {
+  useEffect(() => {
+    AOS.init({
+      // Global settings go here
+      // For example:
+      duration: 800, // Animation duration in milliseconds
+      offset: 100, // Offset (in pixels) from the top of the page when triggering animations
+    });
+  }, []);
   return (
     <section id="contact">
       <div>
-        <div className="text-white font-semibold  text-center p-9 lg:text-start lg:text-7xl lg:ms-6 ">
+        <div
+          data-aos="fade-right"
+          className="text-white font-semibold  text-center p-9 lg:text-start lg:text-7xl lg:ms-6 "
+        >
           <h2 className="text-4xl lg:text-7xl text">
             CONTACT <span className="contact-me">ME</span>
           </h2>
@@ -15,11 +30,17 @@ function Contact() {
         </div>
 
         {/* contact-button */}
-        <div className="flex justify-center gap-5 mb-5 w-full ">
+        <div
+          data-aos="fade-down"
+          className="flex justify-center gap-5 mb-5 w-full "
+        >
           <div>
-            <button className="btn btn-outline text-xs rounded-full bg-gradient-to-r from-sky-500 to-indigo-500  lg:text-base">
+            <a
+              href="mailto:atithiya.inthorn@gmail.com"
+              className="btn btn-outline text-xs rounded-full bg-gradient-to-r from-sky-500 to-indigo-500  lg:text-base"
+            >
               Atithiya.inthorn@gmail.com
-            </button>
+            </a>
           </div>
 
           <div>
@@ -41,8 +62,10 @@ function Contact() {
             </a>
           </div>
         </div>
-        <footer className="footer  border-t-2 text-white p-2 ps-5">
-          <p>© 2023 All Rights Reserved.</p>
+
+        <footer className="footer  border-t-2 text-white p-2 ps-5 flex justify-between">
+          <p>© 2023 Atithiya I.</p>
+          <p>Bangkok, Thailand</p>
         </footer>
       </div>
     </section>

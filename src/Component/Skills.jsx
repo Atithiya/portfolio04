@@ -7,10 +7,19 @@ import { BsFillBootstrapFill } from "react-icons/bs";
 import { SiTailwindcss } from "react-icons/si";
 import { FaFigma } from "react-icons/fa";
 import { BsGit } from "react-icons/bs";
-
-import background from "../assets/bg.png";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Skills() {
+  useEffect(() => {
+    AOS.init({
+      // Global settings go here
+      // For example:
+      duration: 800, // Animation duration in milliseconds
+      offset: 100, // Offset (in pixels) from the top of the page when triggering animations
+    });
+  }, []);
   const [skills, setSkills] = useState([
     {
       logo: <AiFillHtml5 />,
@@ -50,13 +59,19 @@ function Skills() {
   return (
     <section id="skills">
       <div className="lg:mb-36 p-5 ">
-        <div className="text-white font-semibold  text-center p-9 lg:text-start lg:text-7xl lg:ms-6 ">
+        <div
+          data-aos="fade-right"
+          className="text-white font-semibold  text-center p-9 lg:text-start lg:text-7xl lg:ms-6 "
+        >
           <h2 className="text-4xl lg:text-7xl">SKILLS</h2>
           <progress className="progress w-56 bg-white"></progress>
         </div>
 
         {/* Skills */}
-        <div className="card text-white gap-5 grid grid-cols-2 lg:grid-cols-4 gap-4 place-content-center">
+        <div
+          data-aos="fade-down"
+          className="card text-white gap-5 grid grid-cols-2 lg:grid-cols-4 place-content-center"
+        >
           {skills.map((skill, index) => (
             <div
               key={index}

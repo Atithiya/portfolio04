@@ -31,7 +31,7 @@ function Navbar() {
             <li>
               {/* Mobile Navbar */}
               <details>
-                <summary className="text-sm bg-red-600 rounded-full lg:hidden text-bold">
+                <summary className="text-sm bg-gradient-to-r from-sky-500 to-indigo-500 rounded-full lg:hidden text-bold">
                   Menu
                 </summary>
                 <ul className="p-2 text-black  bg-white ">
