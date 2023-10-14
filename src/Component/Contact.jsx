@@ -27,6 +27,9 @@ function Contact() {
             CONTACT <span className="contact-me">ME</span>
           </h2>
           <progress className="progress w-56 bg-white"></progress>
+          <div className="text-xl">
+            <p>It would be amazing to receive oppotunity to work with you!</p>
+          </div>
         </div>
 
         {/* contact-button */}
@@ -62,11 +65,6 @@ function Contact() {
             </a>
           </div>
         </div>
-
-        <footer className="footer  border-t-2 text-white p-2 ps-5 flex justify-between">
-          <p>© 2023 Atithiya I.</p>
-          <p>Bangkok, Thailand</p>
-        </footer>
       </div>
     </section>
   );

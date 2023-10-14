@@ -44,12 +44,12 @@ function About() {
           </div>
           <div data-aos="fade-down" className="lg:w-1/2 lg:text-center  ">
             <p className="text-white lg:text-xl mt-20">
-              Hello ! I am Atithiya Inthorn. <br></br>I am a graduate of Junior
-              Software Developer 5 at Generation Thailand, where my passion for
-              technology and software development took root. I am an
-              enthusiastic junior software developer, eager to contribute
-              innovative solutions to the dynamic world of technology. It would
-              be amazing to receive the opportunity to work with your team!
+              Hello, I'm Atithiya Inthorn. <br />I am graduated of Generation
+              Thailand's Junior Software Developer 5 program, where I discovered
+              my passion for technology and software development. I'm a career
+              switcher, moving from my previous path as a law student to focus
+              on web development, with the goal of creating customized websites
+              to enhance people's online experiences.
             </p>
             <a
               href={CV}

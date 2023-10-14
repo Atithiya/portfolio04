@@ -8,6 +8,10 @@ import { SiTailwindcss } from "react-icons/si";
 import { FaFigma } from "react-icons/fa";
 import { BsGit } from "react-icons/bs";
 import { useEffect } from "react";
+import { BiLogoNodejs } from "react-icons/bi";
+import { SiExpress } from "react-icons/si";
+import { BiLogoMongodb } from "react-icons/bi";
+import { SiSqlite } from "react-icons/si";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -46,6 +50,22 @@ function Skills() {
       logoName: "Tailwind CSS",
     },
     {
+      logo: <BiLogoNodejs />,
+      logoName: "NodeJS",
+    },
+    {
+      logo: <SiExpress />,
+      logoName: "ExpressJs",
+    },
+    {
+      logo: <BiLogoMongodb />,
+      logoName: "MongoDB",
+    },
+    {
+      logo: <SiSqlite />,
+      logoName: "SQLite",
+    },
+    {
       logo: <FaFigma />,
       logoName: "Figma",
     },
@@ -70,7 +90,7 @@ function Skills() {
         {/* Skills */}
         <div
           data-aos="fade-down"
-          className="card text-white gap-5 grid grid-cols-2 lg:grid-cols-4 place-content-center"
+          className="card text-white gap-5 grid grid-cols-3 lg:grid-cols-6 place-content-center"
         >
           {skills.map((skill, index) => (
             <div
