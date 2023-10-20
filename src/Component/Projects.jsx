@@ -18,7 +18,6 @@ function Projects() {
     });
   }, []);
   const [project, setProject] = useState([
-    
     {
       image:
         "https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/391515066_2607505446065811_7419148797784407413_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHGK3SsMWAV5zz5_mZHiuNUlfH-VOYqWjGV8f5U5ipaMZMbortS-i1M6XKXIc4JAP3acA7L92EigN_Hllg33Dm_&_nc_ohc=vatLvqTazSYAX-4iMHN&_nc_ht=scontent.fbkk28-1.fna&oh=00_AfDIN-3ohKKNXQelL_TiidTw8Lb9coD9xAtDxhAb7S_oKg&oe=65353190",
@@ -30,7 +29,7 @@ function Projects() {
     },
     {
       image:
-        "https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/391526007_2607505392732483_866346561858161106_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFIhD_IitVfDnas3w3GSyP6JkfoKjuyRY0mR-gqO7JFjeh4vsbGQBafHrvfLdMKEeJ1t7XeRh8Nqw9Nzc8A7P_b&_nc_ohc=tSDF0jFV7AEAX--uNC8&_nc_ht=scontent.fbkk28-1.fna&oh=00_AfA_-I5mTxb7XyRoqfQLFstLNlDgoF3tz15uDk2kQkwwag&oe=653565C2",
+        "https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/391526637_2607504972732525_6896985667222711452_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHjbdFjso5KzwEKgMFKjdmPJqht5JWiGnwmqG3klaIafOFh6G9lHLRYAvbtqrIP1oK-4xJEhKCHwlcLxVntdj6m&_nc_ohc=HjyMfcLhy8UAX-r6HMm&_nc_ht=scontent.fbkk28-1.fna&oh=00_AfAow1Q2acN4ofKHNyZUI36dQcnSNTpy9WC7pfh_T8hY9g&oe=653517F9",
       cardTitle: "React Assessment",
       cardDetail:
         "Developed the admin panel by sending API requests, allowing admin to create, delete, and read data on the admin page, using ReactJS and TailwindCSS.",
@@ -39,7 +38,7 @@ function Projects() {
     },
     {
       image:
-        "https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/391526637_2607504972732525_6896985667222711452_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHjbdFjso5KzwEKgMFKjdmPJqht5JWiGnwmqG3klaIafOFh6G9lHLRYAvbtqrIP1oK-4xJEhKCHwlcLxVntdj6m&_nc_ohc=HjyMfcLhy8UAX-r6HMm&_nc_ht=scontent.fbkk28-1.fna&oh=00_AfAow1Q2acN4ofKHNyZUI36dQcnSNTpy9WC7pfh_T8hY9g&oe=653517F9",
+        "https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/391526007_2607505392732483_866346561858161106_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFIhD_IitVfDnas3w3GSyP6JkfoKjuyRY0mR-gqO7JFjeh4vsbGQBafHrvfLdMKEeJ1t7XeRh8Nqw9Nzc8A7P_b&_nc_ohc=-80vuXMTSFUAX_xVER4&_nc_ht=scontent.fbkk28-1.fna&oh=00_AfAX8K9tYihGcgicbJpmjgxTyCPaR7EO6k33IxPmOPZQTA&oe=65376002",
       cardTitle: "Colmar Academy",
       cardDetail:
         "Created my first static website with a focus on responsive web design, meeting specific requirements, using HTML and pure CSS.",

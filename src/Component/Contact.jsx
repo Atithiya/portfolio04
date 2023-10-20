@@ -37,7 +37,7 @@ function Contact() {
         {/* contact-button */}
         <div
           data-aos="fade-down"
-          className="lg:flex justify-center space-y-2 lg:space-y-0 lg:gap-5 w-full my-10 p-10 text-white "
+          className="lg:flex justify-center space-y-2 lg:space-y-0 lg:gap-5 w-full lg:my-10 p-10 text-white "
         >
           <div className=" ">
             <a
