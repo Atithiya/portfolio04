@@ -23,7 +23,7 @@ function Projects() {
         "https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/391515066_2607505446065811_7419148797784407413_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHGK3SsMWAV5zz5_mZHiuNUlfH-VOYqWjGV8f5U5ipaMZMbortS-i1M6XKXIc4JAP3acA7L92EigN_Hllg33Dm_&_nc_ohc=vatLvqTazSYAX-4iMHN&_nc_ht=scontent.fbkk28-1.fna&oh=00_AfDIN-3ohKKNXQelL_TiidTw8Lb9coD9xAtDxhAb7S_oKg&oe=65353190",
       cardTitle: "Portfolio",
       cardDetail:
-        "Developed a static portfolio from the ground up, using ReactJS, CSS, and Tailwind CSS, while also implementing responsive web design for mobile devices.",
+        "Developed a static portfolio from the ground up, using ReactJS, CSS, and Tailwind CSS, while also implementing responsive web design for mobile devices",
       github: "https://github.com/Atithiya/portfolio04/tree/main",
       demo: "https://atithiya-inthorn-portfolio.vercel.app/",
     },
@@ -32,7 +32,7 @@ function Projects() {
         "https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/391526637_2607504972732525_6896985667222711452_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHjbdFjso5KzwEKgMFKjdmPJqht5JWiGnwmqG3klaIafOFh6G9lHLRYAvbtqrIP1oK-4xJEhKCHwlcLxVntdj6m&_nc_ohc=HjyMfcLhy8UAX-r6HMm&_nc_ht=scontent.fbkk28-1.fna&oh=00_AfAow1Q2acN4ofKHNyZUI36dQcnSNTpy9WC7pfh_T8hY9g&oe=653517F9",
       cardTitle: "React Assessment",
       cardDetail:
-        "Developed the admin panel by sending API requests, allowing admin to create, delete, and read data on the admin page, using ReactJS and TailwindCSS.",
+        "Created the admin panel by sending API requests, allowing admin to create, delete, and read data on the admin page, using ReactJS and TailwindCSS",
       github: "https://github.com/Atithiya/AtithiyaReactAccessment",
       demo: "https://atithiya-react-accessment.vercel.app/",
     },
@@ -41,9 +41,18 @@ function Projects() {
         "https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/391526007_2607505392732483_866346561858161106_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFIhD_IitVfDnas3w3GSyP6JkfoKjuyRY0mR-gqO7JFjeh4vsbGQBafHrvfLdMKEeJ1t7XeRh8Nqw9Nzc8A7P_b&_nc_ohc=-80vuXMTSFUAX_xVER4&_nc_ht=scontent.fbkk28-1.fna&oh=00_AfAX8K9tYihGcgicbJpmjgxTyCPaR7EO6k33IxPmOPZQTA&oe=65376002",
       cardTitle: "Colmar Academy",
       cardDetail:
-        "Created my first static website with a focus on responsive web design, meeting specific requirements, using HTML and pure CSS.",
+        "Created my first static website with a focus on responsive web design, meeting specific requirements, using HTML and pure CSS",
       github: "https://github.com/Atithiya/Colmar-Academy-Test",
       demo: "https://colmar-academy-test.vercel.app/",
+    },
+    {
+      image:
+        "https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/393584799_2613624875453868_1525315236249494699_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHpvBteme4PRM-1BWa4k16C5yptkTTjz4jnKm2RNOPPiKKf9qlgp9zeNEIC_H3taynXmCTcn_JyPAn2SvlbRvO-&_nc_ohc=ErNIWxWVJbgAX-0ZXN6&_nc_ht=scontent.fbkk28-1.fna&oh=00_AfDIQtvb594WgdV8tQJBqKj9so9sjoJpiL-flTgzmVOu8w&oe=6538936A",
+      cardTitle: "Weather App",
+      cardDetail:
+        "This web application uses HTML, CSS, and JavaScript to fetch and display current weather information from the OpenWeatherMap API for a specified location",
+      github: "https://github.com/Atithiya/weatherApp/",
+      demo: "https://weather-app-atithiya.vercel.app/",
     },
   ]);
 

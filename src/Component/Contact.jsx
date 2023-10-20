@@ -7,7 +7,7 @@ import { CgFileDocument } from "react-icons/cg";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import CV from "../assets/Atithiya_CV.pdf";
+import CV from "../assets/Atithiya_Inthorn_CV.pdf";
 
 function Contact() {
   useEffect(() => {
