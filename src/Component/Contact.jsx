@@ -1,11 +1,13 @@
 import React from "react";
-import background from "../assets/bg.png";
 import { BsGithub } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
-import { FaLocationDot } from "react-icons/fa6";
+import { IoLogoLinkedin } from "react-icons/io5";
+import { MdOutlineMail } from "react-icons/md";
+import { CgFileDocument } from "react-icons/cg";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import CV from "../assets/Atithiya_CV.pdf";
 
 function Contact() {
   useEffect(() => {
@@ -17,17 +19,17 @@ function Contact() {
     });
   }, []);
   return (
-    <section id="contact">
-      <div>
+    <section id="contact" className="w-full">
+      <div className="pt-14 p-5 ">
         <div
           data-aos="fade-right"
-          className="text-white font-semibold  text-center p-9 lg:text-start lg:text-7xl lg:ms-6 "
+          className="text-white font-semibold  text-center p-9 lg:text-start  lg:ms-6 "
         >
-          <h2 className="text-4xl lg:text-7xl text">
+          <h2 className="text-4xl lg:text-5xl text">
             CONTACT <span className="contact-me">ME</span>
           </h2>
-          <progress className="progress w-56 bg-white"></progress>
-          <div className="text-xl">
+          {/* <progress className="progress w-56 bg-white"></progress> */}
+          <div data-aos="fade-down" className="text-lg  pt-5">
             <p>It would be amazing to receive oppotunity to work with you!</p>
           </div>
         </div>
@@ -35,22 +37,61 @@ function Contact() {
         {/* contact-button */}
         <div
           data-aos="fade-down"
-          className="flex justify-center gap-5 mb-5 w-full "
+          className="lg:flex justify-center space-y-2 lg:space-y-0 lg:gap-5 w-full my-10 p-10 text-white "
         >
-          <div>
+          <div className=" ">
             <a
               href="mailto:atithiya.inthorn@gmail.com"
-              className="btn btn-outline text-xs rounded-full bg-gradient-to-r from-sky-500 to-indigo-500  lg:text-base"
+              className="btn btn-outline text-xs bg-gradient-to-r  from-violet-500 to-fuchsia-500 lg:text-base lg:w-72 lg:h-40 lg:rounded-2xl  h-28 flex flex-col"
             >
-              Atithiya.inthorn@gmail.com
+              <div className="text-3xl lg:text-6xl">
+                <MdOutlineMail />
+              </div>
+              <div>atithiya.inthorn@gmail.com</div>
             </a>
           </div>
-
-          <div>
+          <div className=" ">
             <a
               href="https://github.com/Atithiya"
               target="_blank"
-              className="btn btn-outline btn-circle   bg-gradient-to-r from-sky-500 to-indigo-500 lg:text-base"
+              className="btn btn-outline text-xs bg-gradient-to-r  from-violet-500 to-fuchsia-500 lg:text-base lg:w-72 lg:h-40 h-28 lg:rounded-2xl flex flex-col"
+            >
+              <div className="text-3xl lg:text-6xl">
+                <IoLogoLinkedin />
+              </div>
+              <div>linkedin.com/in/atithiya</div>
+            </a>
+          </div>
+          <div className=" ">
+            <a
+              href="https://github.com/Atithiya"
+              target="_blank"
+              className="btn btn-outline text-xs bg-gradient-to-r  from-violet-500 to-fuchsia-500  lg:text-base lg:w-72 lg:h-40 h-28 lg:rounded-2xl flex flex-col"
+            >
+              <div className="text-3xl lg:text-6xl">
+                <BsGithub />
+              </div>
+              <div>github.com/Atithiya</div>
+            </a>
+          </div>
+          <div className=" ">
+            <a
+              href={CV}
+              target="_blank"
+              className="btn btn-outline text-xs bg-gradient-to-r  from-violet-500 to-fuchsia-500  lg:text-base lg:w-72 lg:h-40 h-28  lg:rounded-2xl flex flex-col"
+            >
+              <div className="text-3xl lg:text-6xl">
+                <CgFileDocument />
+              </div>
+              <div>DOWNLOAD CV</div>
+            </a>
+          </div>
+
+          {/* <div>
+            <a
+              href="https://github.com/Atithiya"
+              target="_blank"
+              className="btn btn-outline btn-circle   bg-gradient-to-r from-violet-500 to-fuchsia-500 lg:text-base lg:w-72 lg:h-40 lg:rounded-2xl"
             >
               <BsGithub />
             </a>
@@ -59,11 +100,20 @@ function Contact() {
             <a
               href="https://www.linkedin.com/in/atithiya"
               target="_blank"
-              className="btn btn-outline btn-circle  bg-gradient-to-r from-sky-500 to-indigo-500 lg:text-base"
+              className="btn btn-outline btn-circle  bg-gradient-to-r from-violet-500 to-fuchsia-500 lg:text-base lg:w-72 lg:h-40 lg:rounded-2xl"
             >
               <BsLinkedin />
             </a>
           </div>
+          <div>
+            <a
+              href={CV}
+              className=" btn lg:text-base btn-outline text-xs rounded-full w-full bg-gradient-to-r from-violet-500 to-fuchsia-500 lg:w-72 lg:h-40 lg:rounded-2xl"
+              target="_blank"
+            >
+              Download CV <AiOutlineDownload />
+            </a>
+          </div> */}
         </div>
       </div>
     </section>

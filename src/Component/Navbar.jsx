@@ -3,11 +3,13 @@ import { Link } from "react-scroll";
 
 function Navbar() {
   return (
-    <div id="">
-      <div className="navbar text-white fixed z-10 bg-opacity-5 backdrop-blur-lg backdrop-filter bg-gray-900 ">
+    <div id="" className="w-full">
+      <div className="navbar text-white fixed z-10 bg-opacity-20 backdrop-blur-lg backdrop-filter bg-gray-900 ">
         <div className="flex-1">
           <div className="w-full font-bold text-2xl lg:text-3xl text-white ">
-            <h2 className="logoname ms-5 text-lg ">ATITHIYA I.</h2>
+            <a href="#home" className="logoname ms-5 text-lg ">
+              ATITHIYA I.
+            </a>
           </div>
         </div>
         <div className="flex-none">
@@ -31,7 +33,7 @@ function Navbar() {
             <li>
               {/* Mobile Navbar */}
               <details>
-                <summary className="text-sm bg-gradient-to-r from-sky-500 to-indigo-500 rounded-full lg:hidden text-bold">
+                <summary className="text-sm bg-gradient-to-r from-violet-500 to-fuchsia-500 rounded-full lg:hidden text-bold">
                   Menu
                 </summary>
                 <ul className="p-2 text-black  bg-white ">

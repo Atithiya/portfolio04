@@ -18,10 +18,10 @@ function Projects() {
     });
   }, []);
   const [project, setProject] = useState([
-    // ใส่รายละเอียดโปรเจคตรงนี้แล้วมันจะไป .map ใน card ให้เรา
+    
     {
       image:
-        "https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/391515066_2607505446065811_7419148797784407413_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=813123&_nc_eui2=AeHGK3SsMWAV5zz5_mZHiuNUlfH-VOYqWjGV8f5U5ipaMZMbortS-i1M6XKXIc4JAP3acA7L92EigN_Hllg33Dm_&_nc_ohc=HQeTdUmNQCgAX8QAjPI&_nc_ht=scontent.fbkk28-1.fna&oh=00_AfDWNKwAQqTCoX49rrToubpm5nooCV7wSH01qOMyXzmiug&oe=652B4E50",
+        "https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/391515066_2607505446065811_7419148797784407413_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHGK3SsMWAV5zz5_mZHiuNUlfH-VOYqWjGV8f5U5ipaMZMbortS-i1M6XKXIc4JAP3acA7L92EigN_Hllg33Dm_&_nc_ohc=vatLvqTazSYAX-4iMHN&_nc_ht=scontent.fbkk28-1.fna&oh=00_AfDIN-3ohKKNXQelL_TiidTw8Lb9coD9xAtDxhAb7S_oKg&oe=65353190",
       cardTitle: "Portfolio",
       cardDetail:
         "Developed a static portfolio from the ground up, using ReactJS, CSS, and Tailwind CSS, while also implementing responsive web design for mobile devices.",
@@ -30,8 +30,8 @@ function Projects() {
     },
     {
       image:
-        "https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/391526637_2607504972732525_6896985667222711452_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=813123&_nc_eui2=AeHjbdFjso5KzwEKgMFKjdmPJqht5JWiGnwmqG3klaIafOFh6G9lHLRYAvbtqrIP1oK-4xJEhKCHwlcLxVntdj6m&_nc_ohc=bHeJONrtdOsAX8SpO2B&_nc_ht=scontent.fbkk28-1.fna&oh=00_AfBbFhFEGBCgFpTJPBu9CvvmYYXFTJC3PcoEfs1x-muoCw&oe=652B34B9",
-      cardTitle: "React Accessment",
+        "https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/391526007_2607505392732483_866346561858161106_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFIhD_IitVfDnas3w3GSyP6JkfoKjuyRY0mR-gqO7JFjeh4vsbGQBafHrvfLdMKEeJ1t7XeRh8Nqw9Nzc8A7P_b&_nc_ohc=tSDF0jFV7AEAX--uNC8&_nc_ht=scontent.fbkk28-1.fna&oh=00_AfA_-I5mTxb7XyRoqfQLFstLNlDgoF3tz15uDk2kQkwwag&oe=653565C2",
+      cardTitle: "React Assessment",
       cardDetail:
         "Developed the admin panel by sending API requests, allowing admin to create, delete, and read data on the admin page, using ReactJS and TailwindCSS.",
       github: "https://github.com/Atithiya/AtithiyaReactAccessment",
@@ -39,7 +39,7 @@ function Projects() {
     },
     {
       image:
-        "https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/391526007_2607505392732483_866346561858161106_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=813123&_nc_eui2=AeFIhD_IitVfDnas3w3GSyP6JkfoKjuyRY0mR-gqO7JFjeh4vsbGQBafHrvfLdMKEeJ1t7XeRh8Nqw9Nzc8A7P_b&_nc_ohc=Tg7jnX8KOxoAX9V_5kL&_nc_ht=scontent.fbkk28-1.fna&oh=00_AfB-7xY6rC1Koen_Ufxm8AhdpD_zubWGTkBrZn9oty9ANw&oe=652B8282",
+        "https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/391526637_2607504972732525_6896985667222711452_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHjbdFjso5KzwEKgMFKjdmPJqht5JWiGnwmqG3klaIafOFh6G9lHLRYAvbtqrIP1oK-4xJEhKCHwlcLxVntdj6m&_nc_ohc=HjyMfcLhy8UAX-r6HMm&_nc_ht=scontent.fbkk28-1.fna&oh=00_AfAow1Q2acN4ofKHNyZUI36dQcnSNTpy9WC7pfh_T8hY9g&oe=653517F9",
       cardTitle: "Colmar Academy",
       cardDetail:
         "Created my first static website with a focus on responsive web design, meeting specific requirements, using HTML and pure CSS.",
@@ -49,26 +49,26 @@ function Projects() {
   ]);
 
   return (
-    <section id="projects">
-      <div className="lg:mb-36 p-5">
+    <section id="projects" className="w-full">
+      <div className=" p-5 pt-14">
         <div
           data-aos="fade-right"
           className="text-white font-semibold  text-center lg:text-start lg:text-7xl lg:ms-6 p-9"
         >
-          <h2 className="text-4xl lg:text-7xl">PROJECTS</h2>
-          <progress className="progress w-56 bg-white"></progress>
+          <h2 className="text-4xl lg:text-5xl ">PROJECTS</h2>
+          {/* <progress className="progress w-56 bg-white"></progress> */}
         </div>
 
         {/* Card */}
         <div
           data-aos="fade-down"
-          className="w-full  sm:flex sm:justify-center  lg:grid lg:grid-cols-3 lg:gap-5 text-white gap-5  "
+          className="w-full  sm:flex sm:justify-center  lg:grid lg:grid-cols-3 lg:gap-10 text-white gap-10  lg:ps-8 lg:pe-8 "
         >
           {/* .map ตรงนี้ โดยครอบทั้ง div  */}
           {project.map((item, index) => (
             <div
               key={index}
-              className="card w-full  mt-5 bg-zinc-900 shadow-md shadow-purple-600  hover:scale-105 duration-200"
+              className="card w-full  mt-5 lg:mt-0 bg-zinc-900 shadow-md shadow-purple-600  hover:scale-105 duration-200"
             >
               <figure>
                 <img
@@ -79,8 +79,9 @@ function Projects() {
               </figure>
               <div className="card-body">
                 <h2 className="card-title">{item.cardTitle}</h2>
-                <p>{item.cardDetail}</p>
-                <div className="card-actions justify-center mt-5">
+                <p className="text-sm">{item.cardDetail}</p>
+
+                <div className="card-actions justify-center mt-5 ">
                   <a
                     href={item.github}
                     target="_blank"

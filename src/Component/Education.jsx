@@ -31,13 +31,13 @@ function Education() {
     "https://cdn.pixabay.com/photo/2011/12/14/12/17/galaxy-11098_1280.jpg";
   return (
     <section id="education">
-      <div className="lg:mb-36 p-5">
+      <div className=" p-5 pt-14">
         <div
           data-aos="fade-right"
           className="text-white font-semibold  text-center lg:text-start lg:text-7xl lg:ms-6 p-9 "
         >
-          <h2 className="text-4xl lg:text-7xl text">EDUCATION</h2>
-          <progress className="progress w-56 bg-white"></progress>
+          <h2 className="text-4xl lg:text-5xl text">EDUCATION</h2>
+          {/* <progress className="progress w-56 bg-white"></progress> */}
         </div>
         {/* card education */}
         <div
@@ -58,7 +58,19 @@ function Education() {
               </p>
             </div>
           </div> */}
-          <div className="card w-full hover:scale-105 duration-200 shadow-md shadow-purple-600 bg-zinc-900  ">
+          <div className="card w-full shadow-md shadow-purple-600 bg-zinc-900  ">
+            <div className="card-body">
+              <h2 className="card-title">Junior Software Developer Cohort 5</h2>
+              <p>Generation Thailand</p>
+              <p>July 2023 - October 2023</p>
+              <p>
+                Acquired technical and behavioral skills, including programming,
+                web development (HTML, CSS, JavaScript, React, Node.js, Express,
+                MongoDB), and important mindsets
+              </p>
+            </div>
+          </div>
+          <div className="card w-full mt-5 shadow-md shadow-purple-600 bg-zinc-900  ">
             <div className="card-body">
               <h2 className="card-title">Lawyers Council of Thailand</h2>
               <p>September 2022 - March 2023</p>
@@ -66,11 +78,10 @@ function Education() {
           </div>
           {/* card 2 */}
 
-          <div className="card w-full mt-5 hover:scale-105 duration-200 shadow-md shadow-purple-600 bg-zinc-900 ">
+          <div className="card w-full mt-5  duration-200 shadow-md shadow-purple-600 bg-zinc-900 ">
             <div className="card-body">
-              <h2 className="card-title ">
-                Bachelor of Law | Ramkhamhaeng University
-              </h2>
+              <h2 className="card-title ">Bachelor of Law</h2>
+              <p>Ramkhamhaeng University</p>
               <p>2017-2019</p>
               {/* <p>Law and legal document preparation.</p> */}
             </div>

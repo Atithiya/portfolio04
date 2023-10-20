@@ -9,19 +9,18 @@ import "aos/dist/aos.css";
 function Experience() {
   const [experience, setExperience] = useState([
     {
-      title: "Junior Software Developer",
-      company: "Generation Thailand",
-      year: "July 2023 - October 2023",
-    },
-    {
-      title: "Quality Control",
+      title: "Quality Control Officer",
       company: "ShopeeXpress (Thailand) Co., Ltd.",
       year: "July 2022 - June 2023",
+      jobDescription:
+        "Reviewed employee work to guarantee parcel deliveries adhered to established processes",
     },
     {
       title: "KYC Officer",
       company: "Bitkub Online Co., Ltd.",
       year: "April 2021 - June 2022",
+      jobDescription:
+        "Verified identity documents before establishing customer accounts, in line with our commitment to security and compliance",
     },
     // Add more skills as needed
   ]);
@@ -34,14 +33,14 @@ function Experience() {
     });
   }, []);
   return (
-    <section id="experience">
-      <div className="lg:mb-36 p-5 ">
+    <section id="experience" className="w-full">
+      <div className=" p-5 pt-14">
         <div
           data-aos="fade-right"
           className="text-white font-semibold  text-center p-9 lg:text-start lg:text-7xl lg:ms-6 "
         >
-          <h2 className="text-4xl lg:text-7xl  ">EXPERIENCE</h2>
-          <progress className="progress w-56 bg-white"></progress>
+          <h2 className="text-4xl lg:text-5xl  ">EXPERIENCE</h2>
+          {/* <progress className="progress w-56 bg-white"></progress> */}
         </div>
 
         <div
@@ -51,12 +50,13 @@ function Experience() {
           {experience.map((item, index) => (
             <div
               key={index}
-              className="card w-full  hover:scale-105 duration-200 shadow-md shadow-purple-600 bg-zinc-900 "
+              className="card w-full shadow-md shadow-purple-600 bg-zinc-900 "
             >
               <div className="card-body ">
                 <div className="card-title ">{item.title}</div>
                 <p>{item.company}</p>
                 <p>{item.year}</p>
+                <p>{item.jobDescription}</p>
               </div>
             </div>
           ))}

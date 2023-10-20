@@ -15,7 +15,7 @@ function Home() {
     });
   }, []);
   return (
-    <section id="home">
+    <section id="home" className="w-full">
       <div
         className="background h-80 "
         style={{
