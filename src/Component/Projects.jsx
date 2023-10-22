@@ -20,6 +20,15 @@ function Projects() {
   const [project, setProject] = useState([
     {
       image:
+        "https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/393579026_2614484842034538_7903755899744248717_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeG6x7TqDYDkQCTRi0Xod_ntYgdvZEuW50NiB29kS5bnQ8KFe-8Twhs_C-HO78VOdt70KVZg9PLWNwkdG8_nOJHo&_nc_ohc=ve1o5TXgdZ0AX97VFve&_nc_ht=scontent.fbkk28-1.fna&oh=00_AfB6DmigBQzf5Dpsri6Xx0FvExXr1kj7vk61MLe_aR49OA&oe=653A3AF8",
+      cardTitle: "KeepFit",
+      cardDetail:
+        "Created a workout app for elderly users with a team, employing agile methods and receiving mentorship from an experienced developer. Designed 'My Activity' using Figma, ReactJS, and TailwindCSS, and crafted Keepfit's logo",
+      github: "https://github.com/peth12/keepfit-react",
+      demo: "",
+    },
+    {
+      image:
         "https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/391515066_2607505446065811_7419148797784407413_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHGK3SsMWAV5zz5_mZHiuNUlfH-VOYqWjGV8f5U5ipaMZMbortS-i1M6XKXIc4JAP3acA7L92EigN_Hllg33Dm_&_nc_ohc=vatLvqTazSYAX-4iMHN&_nc_ht=scontent.fbkk28-1.fna&oh=00_AfDIN-3ohKKNXQelL_TiidTw8Lb9coD9xAtDxhAb7S_oKg&oe=65353190",
       cardTitle: "Portfolio",
       cardDetail:
@@ -53,6 +62,15 @@ function Projects() {
         "This web application uses HTML, CSS, and JavaScript to fetch and display current weather information from the OpenWeatherMap API for a specified location",
       github: "https://github.com/Atithiya/weatherApp/",
       demo: "https://weather-app-atithiya.vercel.app/",
+    },
+    {
+      image:
+        "https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/394265045_2614220682060954_454203538176362204_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEnjVEl4ng65s0F0Yv_w0aoC6QJE35HJUALpAkTfkclQGrOh9dIiSE4pQN-3m79XUK9h3MRlGk_Cn04zm2ZBJDM&_nc_ohc=cpeYj5fUhNcAX-V9Z6h&_nc_oc=AQlGutHj4WmgZJeJKDb_YtDJpA25TOyaKYDYMKIr4SdYNcZ4c8hm62-7BOkzvyzAez6C5yWJ9X4OUBn-0PGISq73&_nc_ht=scontent.fbkk28-1.fna&oh=00_AfAqpscKcr6gZdUqQqRr19RPvRnu_rIEScAC3qJlmHybhA&oe=6539C716",
+      cardTitle: "Generate QR Code",
+      cardDetail:
+        "Implemented QR code generator through HTML, CSS, and JavaScript, utilizing the 'qrserver' API to create QR codes from user-provided text or URLs",
+      github: "https://github.com/Atithiya/GenerateQrCode",
+      demo: "https://generate-qr-code-two.vercel.app/",
     },
   ]);
 

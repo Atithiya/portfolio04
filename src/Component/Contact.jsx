@@ -52,7 +52,7 @@ function Contact() {
           </div>
           <div className=" ">
             <a
-              href="https://github.com/Atithiya"
+              href="https://linkedin.com/in/atithiya"
               target="_blank"
               className="btn btn-outline text-xs bg-gradient-to-r  from-violet-500 to-fuchsia-500 lg:text-base lg:w-72 lg:h-40 h-28 lg:rounded-2xl flex flex-col"
             >
