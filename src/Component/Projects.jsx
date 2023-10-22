@@ -65,12 +65,12 @@ function Projects() {
     },
     {
       image:
-        "https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/394265045_2614220682060954_454203538176362204_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEnjVEl4ng65s0F0Yv_w0aoC6QJE35HJUALpAkTfkclQGrOh9dIiSE4pQN-3m79XUK9h3MRlGk_Cn04zm2ZBJDM&_nc_ohc=cpeYj5fUhNcAX-V9Z6h&_nc_oc=AQlGutHj4WmgZJeJKDb_YtDJpA25TOyaKYDYMKIr4SdYNcZ4c8hm62-7BOkzvyzAez6C5yWJ9X4OUBn-0PGISq73&_nc_ht=scontent.fbkk28-1.fna&oh=00_AfAqpscKcr6gZdUqQqRr19RPvRnu_rIEScAC3qJlmHybhA&oe=6539C716",
-      cardTitle: "Generate QR Code",
+        "https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/391694518_2614705255345830_5686081095431102603_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFuN6Vsb_aH5-hbPtB6kgSSeEviWfXGLpd4S-JZ9cYul6Qg2KptUWYV9SrLnukNpFcD5efeZlv8nmwEdVe-f0XY&_nc_ohc=HgkVYHgLYm0AX_lEGv0&_nc_ht=scontent.fbkk28-1.fna&oh=00_AfAGlrP8x5wiB7k5RXjUtUR63TMN4Gc5_agLqOXkg7NQwA&oe=65395DD2",
+      cardTitle: "Register Form",
       cardDetail:
-        "Implemented QR code generator through HTML, CSS, and JavaScript, utilizing the 'qrserver' API to create QR codes from user-provided text or URLs",
+        "Created a sophisticated user registration form with meticulous data validation using HTML, CSS, and JavaScript. This form actively verifies user inputs for accuracy and promptly alerts users to any errors",
       github: "https://github.com/Atithiya/GenerateQrCode",
-      demo: "https://generate-qr-code-two.vercel.app/",
+      demo: "https://register-form-alpha.vercel.app/",
     },
   ]);
 
