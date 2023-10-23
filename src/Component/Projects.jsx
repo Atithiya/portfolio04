@@ -25,7 +25,7 @@ function Projects() {
       cardDetail:
         "Created a workout app for elderly users with a team, employing agile methods and receiving mentorship from an experienced developer. Designed 'My Activity' using Figma, ReactJS, and TailwindCSS, and crafted Keepfit's logo",
       github: "https://github.com/peth12/keepfit-react",
-      demo: "",
+      demo: "https://keepfit-react.vercel.app/",
     },
     {
       image:
@@ -38,7 +38,7 @@ function Projects() {
     },
     {
       image:
-        "https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/391526637_2607504972732525_6896985667222711452_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHjbdFjso5KzwEKgMFKjdmPJqht5JWiGnwmqG3klaIafOFh6G9lHLRYAvbtqrIP1oK-4xJEhKCHwlcLxVntdj6m&_nc_ohc=HjyMfcLhy8UAX-r6HMm&_nc_ht=scontent.fbkk28-1.fna&oh=00_AfAow1Q2acN4ofKHNyZUI36dQcnSNTpy9WC7pfh_T8hY9g&oe=653517F9",
+        "https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/391526637_2607504972732525_6896985667222711452_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=FX3M9qZ37tcAX_iJshG&_nc_ht=scontent.fbkk28-1.fna&oh=00_AfAALgTyEM3glt7-f6Kx7DHWeEB4tKhDrFcAbI8i9x43YA&oe=653B06B9",
       cardTitle: "React Assessment",
       cardDetail:
         "Created the admin panel by sending API requests, allowing admin to create, delete, and read data on the admin page, using ReactJS and TailwindCSS",
