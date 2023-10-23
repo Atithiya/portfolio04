@@ -68,7 +68,7 @@ function Projects() {
         "https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/391694518_2614705255345830_5686081095431102603_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFuN6Vsb_aH5-hbPtB6kgSSeEviWfXGLpd4S-JZ9cYul6Qg2KptUWYV9SrLnukNpFcD5efeZlv8nmwEdVe-f0XY&_nc_ohc=HgkVYHgLYm0AX_lEGv0&_nc_ht=scontent.fbkk28-1.fna&oh=00_AfAGlrP8x5wiB7k5RXjUtUR63TMN4Gc5_agLqOXkg7NQwA&oe=65395DD2",
       cardTitle: "Register Form",
       cardDetail:
-        "Created a sophisticated user registration form with meticulous data validation using HTML, CSS, and JavaScript. This form actively verifies user inputs for accuracy and promptly alerts users to any errors",
+        "Crafted a front-end user registration form using HTML, CSS, and JavaScript. This form carefully validates user inputs and provides immediate error alerts",
       github: "https://github.com/Atithiya/GenerateQrCode",
       demo: "https://register-form-alpha.vercel.app/",
     },
