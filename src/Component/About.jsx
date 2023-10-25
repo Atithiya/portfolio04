@@ -8,7 +8,7 @@ import "aos/dist/aos.css";
 
 function About() {
   const profilePic =
-    "https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/387133819_2607528776063478_4409975424382356809_n.jpg?stp=cp6_dst-jpg&_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGoADNJSvUJacJA-gYEHpJJVjvPvaJjXYJWO8-9omNdghIiktXCHKCiN_Qhv9ItSTiZVQiIYLt7KZe5upqomnWf&_nc_ohc=WnNfJtJd8YkAX-1lwKu&_nc_ht=scontent.fbkk28-1.fna&oh=00_AfDVEh6-z0b7kHMj8TKP0pIEaUNU7z9-1auf7dSihFugeQ&oe=65361943";
+    "https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/387133819_2607528776063478_4409975424382356809_n.jpg?stp=cp6_dst-jpg&_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=rahz7dTkxqcAX-Soyjf&_nc_ht=scontent.fbkk28-1.fna&oh=00_AfB45HVtqPSPMTTuQYti0NIkGEa8KQTRb-Ja7CxXsDfYDw&oe=653E0243";
 
   useEffect(() => {
     AOS.init({

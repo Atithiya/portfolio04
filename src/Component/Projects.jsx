@@ -29,7 +29,7 @@ function Projects() {
     },
     {
       image:
-        "https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/391515066_2607505446065811_7419148797784407413_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHGK3SsMWAV5zz5_mZHiuNUlfH-VOYqWjGV8f5U5ipaMZMbortS-i1M6XKXIc4JAP3acA7L92EigN_Hllg33Dm_&_nc_ohc=vatLvqTazSYAX-4iMHN&_nc_ht=scontent.fbkk28-1.fna&oh=00_AfDIN-3ohKKNXQelL_TiidTw8Lb9coD9xAtDxhAb7S_oKg&oe=65353190",
+        "https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/391515066_2607505446065811_7419148797784407413_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=QzxfgqgzM-8AX8KdNLD&_nc_ht=scontent.fbkk28-1.fna&oh=00_AfAxS9QTwW0tcNPaS4FmzBjK31CA-Xb_ArHOwpiwoMUQtQ&oe=653D1A90",
       cardTitle: "Portfolio",
       cardDetail:
         "Developed a static portfolio from the ground up, using ReactJS, CSS, and Tailwind CSS, while also implementing responsive web design for mobile devices",
@@ -47,7 +47,7 @@ function Projects() {
     },
     {
       image:
-        "https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/391526007_2607505392732483_866346561858161106_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFIhD_IitVfDnas3w3GSyP6JkfoKjuyRY0mR-gqO7JFjeh4vsbGQBafHrvfLdMKEeJ1t7XeRh8Nqw9Nzc8A7P_b&_nc_ohc=-80vuXMTSFUAX_xVER4&_nc_ht=scontent.fbkk28-1.fna&oh=00_AfAX8K9tYihGcgicbJpmjgxTyCPaR7EO6k33IxPmOPZQTA&oe=65376002",
+        "https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/391526007_2607505392732483_866346561858161106_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=wxBZfXqlHqoAX-04yh7&_nc_ht=scontent.fbkk28-1.fna&oh=00_AfCzdqmMDzgyRn8je3RwZjz88khieanhDgAkNvKmkWqrTA&oe=653D4EC2",
       cardTitle: "Colmar Academy",
       cardDetail:
         "Created my first static website with a focus on responsive web design, meeting specific requirements, using HTML and pure CSS",
@@ -56,7 +56,7 @@ function Projects() {
     },
     {
       image:
-        "https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/393584799_2613624875453868_1525315236249494699_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHpvBteme4PRM-1BWa4k16C5yptkTTjz4jnKm2RNOPPiKKf9qlgp9zeNEIC_H3taynXmCTcn_JyPAn2SvlbRvO-&_nc_ohc=ErNIWxWVJbgAX-0ZXN6&_nc_ht=scontent.fbkk28-1.fna&oh=00_AfDIQtvb594WgdV8tQJBqKj9so9sjoJpiL-flTgzmVOu8w&oe=6538936A",
+        "https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/393584799_2613624875453868_1525315236249494699_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=eS0RO_--WyMAX_YzbLJ&_nc_ht=scontent.fbkk28-1.fna&oh=00_AfDoc2bkWmiPZmvGYerlgSxAtcawbU3ny_dHvcv97VOWlw&oe=653E822A",
       cardTitle: "Weather App",
       cardDetail:
         "This web application uses HTML, CSS, and JavaScript to fetch and display current weather information from the OpenWeatherMap API for a specified location",
