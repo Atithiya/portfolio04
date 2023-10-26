@@ -1,5 +1,5 @@
 import React from "react";
-import Profile from "../assets/profile.png";
+
 import CV from "../assets/Atithiya_Inthorn_CV.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { useEffect } from "react";
