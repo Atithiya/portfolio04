@@ -1,5 +1,5 @@
 import React from "react";
-
+import profilePicture from "../assets/profile.jpg";
 import CV from "../assets/Atithiya Inthorn_CV.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { useEffect } from "react";
@@ -7,9 +7,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 function About() {
-  const profilePic =
-    "https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/387133819_2607528776063478_4409975424382356809_n.jpg?stp=cp6_dst-jpg&_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=rahz7dTkxqcAX-Soyjf&_nc_ht=scontent.fbkk28-1.fna&oh=00_AfB45HVtqPSPMTTuQYti0NIkGEa8KQTRb-Ja7CxXsDfYDw&oe=653E0243";
-
   useEffect(() => {
     AOS.init({
       // Global settings go here
@@ -36,7 +33,7 @@ function About() {
         <div data-aos="fade-down" className="w-full lg:flex  lg:ps-20 lg:pe-20">
           <div className="lg:w-1/2">
             <img
-              src={profilePic}
+              src={profilePicture}
               alt="profile-picture"
               className="profile-picture w-[400px] lg:w-[500] shadow-md shadow-purple-600"
             />
