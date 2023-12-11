@@ -6,6 +6,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 // img
 import keepFitImg from "../assets/pro2-keepfit.jpg";
 import portImg from "../assets/pro5-portfo.jpg";
@@ -126,6 +127,15 @@ function Projects() {
               </div>
             </div>
           ))}
+        </div>
+        <div className="p-8 lg:flex lg:justify-end">
+          <Link
+            to={"/MoreProjects"}
+            target="_blank"
+            className="btn lg:text-base btn-outline text-xs rounded-full w-full lg:w-52  bg-gradient-to-r from-violet-500 to-fuchsia-500"
+          >
+            READ MORE <FiExternalLink />
+          </Link>
         </div>
       </div>
     </section>

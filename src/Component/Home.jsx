@@ -39,9 +39,9 @@ function Home() {
             sequence={[
               "HELLO !",
               500,
-              "JUNIOR FRONT-END DEVELOPER",
+              "JUNIOR SOFTWARE DEVELOPER",
               500,
-              "JUNIOR FRONT-END ",
+              "JUNIOR SOFTWARE",
               500,
             ]}
             style={{ fontSize: "1em" }}
