@@ -131,7 +131,6 @@ function Projects() {
         <div className="p-8 lg:flex lg:justify-end">
           <Link
             to={"/MoreProjects"}
-            target="_blank"
             className="btn lg:text-base btn-outline text-xs rounded-full w-full lg:w-52  bg-gradient-to-r from-violet-500 to-fuchsia-500"
           >
             READ MORE <FiExternalLink />
