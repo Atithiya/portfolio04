@@ -11,7 +11,7 @@ function Experience() {
     {
       title: "Quality Control Officer",
       company: "ShopeeXpress (Thailand) Co., Ltd.",
-      year: "July 2022 - June 2023",
+      year: "July 2022 - Present",
       jobDescription:
         "Reviewed employee work to guarantee parcel deliveries adhered to established processes",
     },
