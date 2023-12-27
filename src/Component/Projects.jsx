@@ -112,14 +112,14 @@ function Projects() {
                   <a
                     href={item.github}
                     target="_blank"
-                    className="btn lg:text-base btn-outline text-xs rounded-full w-full lg:w-32  bg-gradient-to-r from-violet-500 to-fuchsia-500"
+                    className="btn lg:text-base btn-outline text-xs text-white rounded-full w-full lg:w-32  bg-gradient-to-r from-violet-500 to-fuchsia-500"
                   >
                     Github <AiFillGithub />
                   </a>
                   <a
                     href={item.demo}
                     target="_blank"
-                    className="btn lg:text-base btn-outline text-xs rounded-full w-full lg:w-32  bg-gradient-to-r from-violet-500 to-fuchsia-500"
+                    className="btn lg:text-base btn-outline text-xs text-white rounded-full w-full lg:w-32  bg-gradient-to-r from-violet-500 to-fuchsia-500"
                   >
                     Link <FiExternalLink />
                   </a>
@@ -131,7 +131,7 @@ function Projects() {
         <div className="p-8 lg:flex lg:justify-end">
           <Link
             to={"/MoreProjects"}
-            className="btn lg:text-base btn-outline text-xs rounded-full w-full lg:w-52  bg-gradient-to-r from-violet-500 to-fuchsia-500"
+            className="btn lg:text-base btn-outline text-xs text-white rounded-full w-full lg:w-52  bg-gradient-to-r from-violet-500 to-fuchsia-500"
           >
             READ MORE <FiExternalLink />
           </Link>
