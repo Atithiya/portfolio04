@@ -39,7 +39,7 @@ function Projects() {
       cardDetail:
         "Developed a static portfolio from the ground up, using ReactJS, CSS, and Tailwind CSS, while also implementing responsive web design for mobile devices",
       github: "https://github.com/Atithiya/portfolio04/tree/main",
-      demo: "https://atithiya-portfolio.vercel.app/",
+      demo: "https://atithiya-i-portfolio.vercel.app/",
     },
     {
       image: adminImg,
