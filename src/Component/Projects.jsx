@@ -1,5 +1,4 @@
 import React from "react";
-import { BsArrowRight } from "react-icons/bs";
 import { AiFillGithub } from "react-icons/ai";
 import { FiExternalLink } from "react-icons/fi";
 import { useState } from "react";
@@ -14,6 +13,7 @@ import adminImg from "../assets/pro7-admin.jpg";
 import weatherImg from "../assets/pro4-weather.jpg";
 import colmarImg from "../assets/pro6-colmar.jpg";
 import registerImg from "../assets/pro1-reg.jpg";
+import hooBankImg from "../assets/pro9-hoobank.jpg";
 
 function Projects() {
   useEffect(() => {
@@ -66,12 +66,12 @@ function Projects() {
       demo: "https://weather-app-atithiya.vercel.app/",
     },
     {
-      image: registerImg,
-      cardTitle: "Register Form",
+      image: hooBankImg,
+      cardTitle: "Hoobank",
       cardDetail:
-        "Crafted a front-end user registration form using HTML, CSS, and JavaScript. This form carefully validates user inputs and provides immediate error alerts",
-      github: "https://github.com/Atithiya/GenerateQrCode",
-      demo: "https://register-form-alpha.vercel.app/",
+        "Built a modern banking website called Hoobank using ReactJS and Tailwind CSS.",
+      github: "https://github.com/Atithiya/atithiya-hoobank/",
+      demo: "https://atithiya-hoobank.vercel.app/",
     },
   ]);
 
@@ -83,7 +83,6 @@ function Projects() {
           className="text-white font-semibold  text-center lg:text-start lg:text-7xl lg:ms-6 p-9"
         >
           <h2 className="text-4xl lg:text-5xl ">PROJECTS</h2>
-          {/* <progress className="progress w-56 bg-white"></progress> */}
         </div>
 
         {/* Card */}
@@ -91,7 +90,6 @@ function Projects() {
           data-aos="fade-down"
           className="w-full  sm:flex sm:justify-center  lg:grid lg:grid-cols-3 lg:gap-10 text-white gap-10  lg:ps-8 lg:pe-8 "
         >
-          {/* .map ตรงนี้ โดยครอบทั้ง div  */}
           {project.map((item, index) => (
             <div
               key={index}
@@ -112,14 +110,14 @@ function Projects() {
                   <a
                     href={item.github}
                     target="_blank"
-                    className="btn lg:text-base btn-outline text-xs text-white rounded-full w-full lg:w-32  bg-gradient-to-r from-violet-500 to-fuchsia-500"
+                    className="btn lg:text-base hover:text-black text-xs text-white rounded-full w-full lg:w-32  bg-gradient-to-r from-violet-500 to-fuchsia-500"
                   >
                     Github <AiFillGithub />
                   </a>
                   <a
                     href={item.demo}
                     target="_blank"
-                    className="btn lg:text-base btn-outline text-xs text-white rounded-full w-full lg:w-32  bg-gradient-to-r from-violet-500 to-fuchsia-500"
+                    className="btn lg:text-base hover:text-black text-xs text-white rounded-full w-full lg:w-32  bg-gradient-to-r from-violet-500 to-fuchsia-500"
                   >
                     Link <FiExternalLink />
                   </a>
@@ -131,7 +129,7 @@ function Projects() {
         <div className="p-8 lg:flex lg:justify-end">
           <Link
             to={"/MoreProjects"}
-            className="btn lg:text-base btn-outline text-xs text-white rounded-full w-full lg:w-52  bg-gradient-to-r from-violet-500 to-fuchsia-500"
+            className="btn lg:text-base hover:text-black text-xs text-white rounded-full w-full lg:w-52  bg-gradient-to-r from-violet-500 to-fuchsia-500"
           >
             READ MORE <FiExternalLink />
           </Link>

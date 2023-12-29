@@ -1,19 +1,16 @@
 import React from "react";
-import { BsArrowRight } from "react-icons/bs";
 import { AiFillGithub } from "react-icons/ai";
 import { FiExternalLink } from "react-icons/fi";
 import { useState } from "react";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Link } from "react-router-dom";
-import Navbar from "./Navbar";
 import MoreProjectNavbar from "./MoreProjectNavbar";
 
 // img
-import keepFitImg from "../assets/pro2-keepfit.jpg";
 import rockImg from "../assets/pro8-rock.png";
 import tinDogImg from "../assets/pro9-TinDog-img.png";
+import registerImg from "../assets/pro1-reg.jpg";
 
 function MoreProjects() {
   useEffect(() => {
@@ -41,6 +38,14 @@ function MoreProjects() {
       github: "https://github.com/Atithiya/TinDog",
       demo: "https://atithiya-tindog.vercel.app/",
     },
+    {
+      image: registerImg,
+      cardTitle: "Register Form",
+      cardDetail:
+        "Crafted a front-end user registration form using HTML, CSS, and JavaScript. This form carefully validates user inputs and provides immediate error alerts",
+      github: "https://github.com/Atithiya/GenerateQrCode",
+      demo: "https://register-form-alpha.vercel.app/",
+    },
   ]);
 
   return (
@@ -53,7 +58,6 @@ function MoreProjects() {
             className="text-white font-semibold  text-center lg:text-start lg:text-7xl lg:ms-6 p-9"
           >
             <h2 className="text-4xl lg:text-5xl ">PROJECTS</h2>
-            {/* <progress className="progress w-56 bg-white"></progress> */}
           </div>
 
           {/* Card */}
@@ -61,7 +65,6 @@ function MoreProjects() {
             data-aos="fade-down"
             className="w-full  sm:flex sm:justify-center  lg:grid lg:grid-cols-3 lg:gap-10 text-white gap-10  lg:ps-8 lg:pe-8 "
           >
-            {/* .map ตรงนี้ โดยครอบทั้ง div  */}
             {project.map((item, index) => (
               <div
                 key={index}
