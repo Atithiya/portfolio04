@@ -69,7 +69,7 @@ function Projects() {
       image: hooBankImg,
       cardTitle: "Hoobank",
       cardDetail:
-        "Built a modern banking website called Hoobank using ReactJS and Tailwind CSS.",
+        "Crafted a modern banking platform, Hoobank, using ReactJS and Tailwind CSS, with a focus on responsive web design to optimize user experience on mobile devices",
       github: "https://github.com/Atithiya/atithiya-hoobank/",
       demo: "https://atithiya-hoobank.vercel.app/",
     },

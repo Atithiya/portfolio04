@@ -11,6 +11,7 @@ import MoreProjectNavbar from "./MoreProjectNavbar";
 import rockImg from "../assets/pro8-rock.png";
 import tinDogImg from "../assets/pro9-TinDog-img.png";
 import registerImg from "../assets/pro1-reg.jpg";
+import favPoke from "../assets/pro10-favPoke.jpg";
 
 function MoreProjects() {
   useEffect(() => {
@@ -45,6 +46,14 @@ function MoreProjects() {
         "Crafted a front-end user registration form using HTML, CSS, and JavaScript. This form carefully validates user inputs and provides immediate error alerts",
       github: "https://github.com/Atithiya/GenerateQrCode",
       demo: "https://register-form-alpha.vercel.app/",
+    },
+    {
+      image: favPoke,
+      cardTitle: "Favourite Pokemon",
+      cardDetail:
+        "Develop a Pokemon fan's website using ReactJs and Tailwind CSS, integrating Axios to fetch API data. Users can easily select their favorite Pokemon and express their love with a single click",
+      github: "https://github.com/Atithiya/favpoke",
+      demo: "https://favpoke.vercel.app/",
     },
   ]);
 
@@ -85,14 +94,14 @@ function MoreProjects() {
                     <a
                       href={item.github}
                       target="_blank"
-                      className="btn lg:text-base btn-outline text-xs text-white rounded-full w-full lg:w-32  bg-gradient-to-r from-violet-500 to-fuchsia-500"
+                      className="btn lg:text-base hover:text-black text-xs text-white rounded-full w-full lg:w-32  bg-gradient-to-r from-violet-500 to-fuchsia-500"
                     >
                       Github <AiFillGithub />
                     </a>
                     <a
                       href={item.demo}
                       target="_blank"
-                      className="btn lg:text-base btn-outline text-xs text-white rounded-full w-full lg:w-32  bg-gradient-to-r from-violet-500 to-fuchsia-500"
+                      className="btn lg:text-base hover:text-black text-xs text-white rounded-full w-full lg:w-32  bg-gradient-to-r from-violet-500 to-fuchsia-500"
                     >
                       Link <FiExternalLink />
                     </a>
